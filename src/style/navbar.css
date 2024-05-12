@@ -1,0 +1,269 @@
+.top-strip{
+    background-color: #EEEEEE
+}
+
+.logo-div{
+    position: relative;
+    left:50px;
+   
+}
+.logo-first{
+    color: #E15C0B;
+    font-size: 27px;
+    font-weight: 800;
+    position: relative;
+    left:5px;
+   
+}
+.logo-second{
+    color: black;
+    font-size: 27px;
+    font-weight: 800;
+}
+.navbar-image{
+    position: relative;
+}
+
+.input-div{
+position: relative;
+right: 10px;
+}
+input[type=search] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #E15C0B;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    width: 515px;
+  }
+  
+  input[type=search]:focus {
+    border: 3px solid none;
+  }
+  .serach-btn{
+    background-color:#E15C0B ;
+    height: 30px;
+    margin-top: 8px;
+    color: white;
+    border-color:#E15C0B ;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius: 3px;
+  }
+
+  .badge-text{
+    font-size: 8px;
+    position: relative;
+    top:-4px
+  }
+
+  .navbar-icon-div{
+    position: relative;
+    left:-70px
+  }
+  .navbar{
+    background-color: #E15C0B !important;
+    height: 45px;
+  }
+  .dropdown{
+    background-color: white;
+    color: black;
+    border: 1xp solid transparent;
+    border-radius: 10px ;
+  }
+  #dropdownMenuButton1{
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  .for-sale-image{
+    position: relative;
+    top:-2px;
+  }
+  .dropdown1{
+    background-color: transparent !important;
+  }
+  #dropdownMenuButton2{
+    background-color: transparent !important;
+    color: white;
+    border: none;
+  }
+  .navbar-middle-links{
+    position: relative;
+    left:130px
+  }
+  .navbar-last-link{
+    position: relative;
+    left:210px
+  }
+  .navbar-brand{
+    position: relative;
+    left:54px
+  }
+  .navbar-first-text{
+    color: black;
+  }
+  
+
+  @media only screen and (max-width: 430px) {
+    .navbar-first-text{
+      font-size: 8px;
+    }
+    .navbar-second-text{
+      font-size: 8px;
+    }
+    .navbar-third-text{
+      font-size: 9px;
+    }
+    .navbar-login-btn{
+      font-size: 9px;
+      background-color: #E15C0B;
+      color: white;
+      padding: 5px;
+    }
+    .navbar-login-btn:hover{
+      font-size: 9px;
+      background-color: white;
+      color: black;
+      padding: 5px;
+    }
+    .logo-first{
+      color: #E15C0B;
+      font-size: 18px;
+      font-weight: 800;
+      position: relative;
+      left: -40px;
+    }
+    .logo-second{
+      color: black;
+      font-size: 18px;
+      font-weight: 800;
+      position: relative;
+      left: -40px;
+    }
+    .navbar-icon-div{
+      position: relative;
+    left: -6px;
+    display: flex
+    }
+    .badge-text{
+      font-size: 8px;
+      position: relative;
+      top: -34px;
+      left: 6px;
+    }
+    .serach-btn{
+      background-color:#E15C0B ;
+      height: 30px;
+      margin-top: 8px;
+      color: white;
+      border-color:#E15C0B ;
+      border-top-right-radius:3px ;
+      border-bottom-right-radius: 3px;
+      position: relative;
+      top: -15px;
+    width: 195px;
+    }
+    .navbar {
+      background-color: #E15C0B !important;
+      height: 62px;
+      width: 103%;
+  }
+  .input-div {
+    position: relative;
+    right: -5px;
+}
+.navbar-toggler{
+  border:none
+}
+#dropdownMenuButton{
+  background-color: #E15C0B;
+}
+.dropdown-menu-responsive{
+  background-color:white;
+  margin-left: -120px;
+}
+   
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar-first-text{
+    font-size: 12px;
+  }
+  .navbar-second-text{
+    font-size: 12px;
+  }
+  .navbar-third-text{
+    font-size: 12px;
+  }
+  .navbar-login-btn{
+    font-size: 12px;
+  }
+  input[type=search] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #E15C0B;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    width: 420px;
+  }
+  .input-div {
+    position: relative;
+    right: -80px;
+}
+.navbar-icon-div{
+  position: relative;
+  left: -6px;
+}
+.navbar-image {
+  position: relative;
+  left:30px
+}
+.navbar-last-link{
+  position: relative;
+  left:110px
+}
+    
+}
+@media only screen and (min-width: 1440px) {
+  .navbar-first-text{
+    font-size: 13px;
+  }
+  .navbar-second-text{
+    font-size: 13px;
+  }
+  .navbar-third-text{
+    font-size: 13px;
+  }
+  .navbar-login-btn{
+    font-size: 13px;
+  }
+  .navbar-icon-div {
+    position: relative;
+    left: -92px;
+}
+  .navbar-last-link{
+    position: relative;
+    left:330px;
+  }
+  
+}
+@media only screen and (min-width: 1900px) {
+  .navbar-first-text{
+    font-size: 13px;
+  }
+  .navbar-second-text{
+    font-size: 13px;
+  }
+  .navbar-third-text{
+    font-size: 13px;
+  }
+  .navbar-login-btn{
+    font-size: 13px;
+  }
+  
+
+}

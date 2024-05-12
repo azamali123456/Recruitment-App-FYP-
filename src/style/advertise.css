@@ -1,0 +1,211 @@
+.advertise {
+    margin-left: 0%;
+    margin-right: 20%;
+}
+
+.first-advertise {
+    background: url('./../assets/images//calculator.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+
+}
+
+.first-advertise-text {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.first-advertise-name {
+    font-size: 34px;
+    font-weight: 700;
+    position: relative;
+    right: 185px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.first-advertise-discription {
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    right: 175px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.first-advertise-off-no {
+    font-size: 70px;
+    font-weight: 1200;
+    position: relative;
+    right: 50px;
+
+    color: #f7d448;
+}
+
+.first-advertise-off-text {
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    top: 48px;
+    right: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.first-advertise-btn {
+    background-color: #E05400;
+    color: white;
+    border: 1px solid #E05400;
+    position: relative;
+    width: 8rem;
+    right: 250px;
+
+}
+
+.second-advertise {
+    background: url('./../assets/images//calculator.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.third-advertise {
+    background: url('./../assets/images//calculator.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.sub-advertise-text {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    right: 120px;
+    color: #f7d448;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.sub-advertise-name {
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    right: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sub-advertise-shop-now {
+    color: white;
+    position: relative;
+    right: 128px;
+}
+
+.sub-advertise-shop-now:hover {
+    color: blue;
+    position: relative;
+    right: 128px;
+}
+
+
+.sub-advertise-discription {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    right: 122px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    .first-advertise {
+        background-position: 100%;
+        padding: 130px;
+    }
+
+    .first-advertise-text {
+        font-size: 10px;
+        position: relative;
+        right: 98px;
+    }
+
+    .first-advertise-name {
+        font-size: 28px;
+        position: relative;
+        right: 96px;
+        letter-spacing: 8px;
+    }
+
+    .first-advertise-discription {
+        font-size: 25px;
+        position: relative;
+        right: 98px;
+    }
+
+    .first-advertise-off-no {
+        font-size: 39px;
+        position: relative;
+        right: -13px;
+    }
+
+    .first-advertise-off-text {
+        font-size: 20px;
+        position: relative;
+        top: 48px;
+        right: 45px;
+        color: black;
+    }
+
+    .first-advertise-btn {
+        background-color: #E05400;
+        color: white;
+        border: 1px solid #E05400;
+        position: relative;
+        width: 8rem;
+        right: 250px;
+
+    }
+
+    .first-advertise-btn {
+        position: relative;
+        width: 6rem;
+        right: 88px;
+        top: -44px
+    }
+
+    .sub-advertise-text {
+        font-size: 15px;
+        position: relative;
+        right: 80px;
+    
+    }
+    .sub-advertise-discription {
+        font-size: 15px;
+        font-weight: 800;
+        position: relative;
+        right: 82px;
+    }
+    
+    
+    
+    .sub-advertise-shop-now {
+        color: white;
+        position: relative;
+        right: 84px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {}
